@@ -7,9 +7,9 @@ jobs:
     steps:
       - checkout
       - run: make deps
-      - run make lint
+      - run make lints
       - run: make test
 workflows:
-  bartosz-piwowarczyk:
+  jan-kowalski:
     jobs:
       - build-and-test
