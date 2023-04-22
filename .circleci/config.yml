@@ -9,6 +9,6 @@ jobs:
       - run: make deps
       - run: make test
 workflows:
-  jan-kowalski:
+    basic:
     jobs:
       - build-and-test
